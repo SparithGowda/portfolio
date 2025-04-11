@@ -1,9 +1,9 @@
 import React,{useState,useRef,useEffect} from "react";
 
-import email from "../assets/email.png";
-import download from "../assets/download.png";
-import github from "../assets/Github.png";
-import linkedin from "../assets/Linkedin.png";
+import email from "../Assets/email.png";
+import download from "../Assets/download.png";
+import github from "../Assets/GIthub.png";
+import linkedin from "../Assets/Linkedin.png";
 
 
 
@@ -127,7 +127,7 @@ function Navbar() {
       </div>
     </nav>
   );
-  
+
 }
 
 export default Navbar;
