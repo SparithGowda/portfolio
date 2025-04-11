@@ -71,7 +71,7 @@ function Navbar() {
                   className="flex items-center px-4 py-2 hover:bg-gray-100 transition text-gray-800"
                 >
                    <img
-                    src="/Linkedin.png"
+                    src="{`${process.env.PUBLIC_URL}/Linkedin.png'}"
                     alt="LinkedIn"
                     className="w-5 h-5"
                   />
