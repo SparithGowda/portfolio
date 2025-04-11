@@ -1,5 +1,11 @@
 import React,{useState,useRef,useEffect} from "react";
 
+import email from "../assets/email.png";
+import download from "../assets/download.png";
+import github from "../assets/Github.png";
+import linkedin from "../assets/Linkedin.png";
+
+
 
 
 function Navbar() {
@@ -71,7 +77,7 @@ function Navbar() {
                   className="flex items-center px-4 py-2 hover:bg-gray-100 transition text-gray-800"
                 >
                    <img
-                    src="{`${process.env.PUBLIC_URL}/Linkedin.png'}"
+                    src={linkedin}
                     alt="LinkedIn"
                     className="w-5 h-5"
                   />
@@ -86,7 +92,7 @@ function Navbar() {
                   className="flex items-center px-4 py-2 hover:bg-gray-100 transition text-gray-800"
                 >
                    <img
-                    src="/GIthub.png"
+                    src={github}
                     alt="LinkedIn"
                     className="w-5 h-5"
                   />
@@ -101,7 +107,7 @@ function Navbar() {
     className="flex items-center px-4 py-2 gap-2 hover:bg-gray-100 transition text-gray-800"
   >
     <img
-      src="/email.png"  // Make sure this icon exists in /public
+      src={email}  // Make sure this icon exists in /public
       alt="Email"
       className="w-5 h-5"
     />
@@ -113,7 +119,7 @@ function Navbar() {
         </li>
         <li className="flex items-center gap-2">
           <a href="/FrontendSpa.pdf">
-  <img src="/download.png" alt="Download" className="w-7 h-7 hover:scale-150 transition cursor-pointer" />
+  <img src={download} alt="Download" className="w-7 h-7 hover:scale-150 transition cursor-pointer" />
   </a>
 </li>
 
@@ -121,6 +127,7 @@ function Navbar() {
       </div>
     </nav>
   );
+  
 }
 
 export default Navbar;
