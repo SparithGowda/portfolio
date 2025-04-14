@@ -1,9 +1,9 @@
 import React,{useState,useRef,useEffect} from "react";
 
-import email from "../Assets/email.png";
-import download from "../Assets/download.png";
-import github from "../Assets/GIthub.png";
-import linkedin from "../Assets/Linkedin.png";
+import email from "./Assets/email.png";
+import download from "./Assets/download.png";
+import github from "./Assets/GIthub.png";
+import linkedin from "./Assets/Linkedin.png";
 
 
 
