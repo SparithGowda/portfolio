@@ -34,7 +34,7 @@ function Navbar() {
         {/* Introduction */}
         <div>
         <div className="text-2xl font-bold text-black-600 tracking-tight">
-          Sparith Gowda</div>
+          parith Gowda</div>
           <div className="text-sm font-bold text-black-500 -mt-1">Frontend Developer</div>
           <div className="text-sm font-semi-bold text-black-500 -mt-1">reach2sparith@gmail.com</div>
         </div>
