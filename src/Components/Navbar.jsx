@@ -1,9 +1,10 @@
 import React,{useState,useRef,useEffect} from "react";
 
-import email from "./Assets/email.png";
-import download from "./Assets/download.png";
-import github from "./Assets/GIthub.png";
-import linkedin from "./Assets/Linkedin.png";
+import email from "../Assets/email.png";
+import download from "../Assets/download.png";
+import github from "../Assets/GIthub.png";
+
+import linkedin from "../Assets/Linkedin.png";
 
 
 
@@ -77,7 +78,7 @@ function Navbar() {
                   className="flex items-center px-4 py-2 hover:bg-gray-100 transition text-gray-800"
                 >
                    <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png"
+                    src={linkedin}
                     alt="LinkedIn"
                     className="w-5 h-5"
                   />
