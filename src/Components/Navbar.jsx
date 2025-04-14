@@ -34,7 +34,7 @@ function Navbar() {
         {/* Introduction */}
         <div>
         <div className="text-2xl font-bold text-black-600 tracking-tight">
-          Sparith Gowda</div>
+          parith Gowda</div>
           <div className="text-sm font-bold text-black-500 -mt-1">Frontend Developer</div>
           <div className="text-sm font-semi-bold text-black-500 -mt-1">reach2sparith@gmail.com</div>
         </div>
@@ -77,7 +77,7 @@ function Navbar() {
                   className="flex items-center px-4 py-2 hover:bg-gray-100 transition text-gray-800"
                 >
                    <img
-                    src={linkedin}
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png"
                     alt="LinkedIn"
                     className="w-5 h-5"
                   />
