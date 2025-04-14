@@ -77,7 +77,7 @@ function Navbar() {
                   className="flex items-center px-4 py-2 hover:bg-gray-100 transition text-gray-800"
                 >
                    <img
-                    src={linkedin}
+                    src=portfolio/{linkedin}
                     alt="LinkedIn"
                     className="w-5 h-5"
                   />
