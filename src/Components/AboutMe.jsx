@@ -1,4 +1,5 @@
 import React from "react";
+import dancegif from "../Assets/dance.gif"; // Import the GIF file
 
 function AboutMe() {
   return (
@@ -12,7 +13,7 @@ function AboutMe() {
       <div className="relative group bg-white shadow-lg rounded-xl p-6 border border-gray-200 transform transition duration-300 hover:scale-105">
          
          <img
-    src="/dance.gif"
+    src={dancegif}
     alt="Dancing"
     className="absolute -top-12 right-4 w-16 h-16 hidden group-hover:block animate-bounce"
   />
