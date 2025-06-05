@@ -23,12 +23,12 @@ function Projects() {
             <span className="font-semibold">Tech Stack:</span> React, Tailwind CSS, Web3Forms, Google Maps API
           </p>
           <a
-            href="https://github.com/SparithGowda/resort-booking-site"
+            href="https://resort-booking-site-pi.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white bg-gray-800 hover:bg-gray-700 font-medium py-2 px-4 rounded-lg transition"
           >
-            View on GitHub
+            Visit Site
           </a>
         </div>
 
