@@ -47,7 +47,7 @@ function Projects() {
             <span className="font-semibold">Tech Stack:</span> React, CSS, HTML
           </p>
           <a
-            href="https://github.com/your-username/resort-booking-project"
+            href="https://github.com/SparithGowda/FoodDelhivery"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white bg-gray-800 hover:bg-gray-700 font-medium py-2 px-4 rounded-lg transition"
